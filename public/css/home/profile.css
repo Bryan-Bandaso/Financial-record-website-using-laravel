@@ -1,0 +1,103 @@
+<<<<<<< HEAD
+@media screen and (min-width: 997px) {
+    .bg-form {
+        border-style: solid;
+        background-color: white;
+        padding: 3rem;
+        border-color: #00d2c6;
+        border-radius: 1rem;
+        width: 100%;
+        height: auto;
+    }
+    
+    .bg-form input {
+        height: auto;
+        width: 100%;
+        border-style: solid;
+        border-color: #00d2c8;
+        padding: 5px 10px 5px 10px;
+        border-width: 2.5px;
+        border-radius: 5px;
+    }
+    
+    input:focus {
+        outline: transparent;
+        box-shadow: 0.5px 0.5px 5px #00d2c6;
+    }
+
+    .backBtn-mobileV button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-form {
+        margin-top: 5rem;
+        border-style: solid;
+        background-color: white;
+        padding: 3rem;
+        border-color: #00d2c6;
+        border-radius: 1rem;
+        width: 100%;
+        height: auto;
+    }
+    
+    .bg-form input {
+        height: auto;
+        width: 100%;
+        border-style: solid;
+        border-color: #00d2c8;
+        padding: 5px 10px 5px 10px;
+        border-width: 2.5px;
+        border-radius: 5px;
+    }
+    
+    input:focus {
+        outline: transparent;
+        box-shadow: 0.5px 0.5px 5px #00d2c6;
+    }
+
+    .back-btn{
+        display: none;
+    }
+
+    .backBtn-mobileV button{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background-color: green;
+        outline: transparent;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 8px;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+=======
+.bg-form {
+    border-style: solid;
+    background-color: white;
+    padding: 3rem;
+    border-color: #00d2c6;
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.bg-form input {
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: #00d2c8;
+    padding: 5px 10px 5px 10px;
+    border-width: 2.5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: transparent;
+    box-shadow: 0.5px 0.5px 5px #00d2c6;
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+}

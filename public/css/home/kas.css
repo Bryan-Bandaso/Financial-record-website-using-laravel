@@ -1,0 +1,616 @@
+<<<<<<< HEAD
+.add-transaksi input {
+    width: 100%;
+    margin: 3px 0 10px 0;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.add-transaksi input:focus {
+    width: 100%;
+    outline: none;
+    border: 2px solid rgb(0, 51, 255);
+    box-shadow: 0 0 5px 1px rgb(0, 128, 255);
+}
+
+.add-transaksi span {
+    font-weight: 500;
+}
+
+=======
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+.bg-navbar {
+    height: auto;
+    padding: 0.5rem;
+    background-color: #03514d;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+<<<<<<< HEAD
+.profil-option {
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3px 1px rgb(61, 61, 61);
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 2rem;
+    top: 15%;
+}
+
+.profil-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.profil-option button {
+    background-color: transparent;
+    border: 0 solid transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: 0.3s;
+}
+
+.list {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 0 solid transparent;
+    border-radius: 0.5rem;
+}
+
+.list a {
+    color: black;
+    text-decoration: none;
+}
+
+.list span {
+    margin-left: 0.3rem;
+    font-size: 17px;
+    font-weight: 500;
+    color: red;
+}
+
+.list svg {
+    margin-left: 1rem;
+    color: red;
+}
+
+.profil-option button:hover {
+    scale: 1.2;
+    color: blue;
+}
+
+.name-app {
+=======
+h1 {
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    color: white;
+    font-family: "Comfortaa", cursive;
+}
+
+#user-icon {
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    transition: 0.2s;
+    margin-right: 2.5rem;
+}
+
+#user-icon:hover {
+<<<<<<< HEAD
+    color: white;
+    background-color: blue;
+    border-color: transparent;
+    border-radius: 100%;
+}
+
+#home-btn {
+    margin-top: 2rem;
+    width: auto;
+    background-color: #3bff37;
+    padding: 5px;
+    border: solid transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+#home-btn svg {
+    margin: -6px 5px 0 0;
+    color: #03514d;
+}
+
+#print-btn {
+    margin-top: 2rem;
+    width: auto;
+    background-color: #00d2c6;
+    padding: 5px;
+    border: solid transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#print-btn:hover {
+    margin-top: 2rem;
+    width: auto;
+    background-color: #00d2c6;
+    padding: 5px;
+    border: solid transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    transform-style: flat;
+    box-shadow: 0 0 5px 2px rgb(2, 156, 71);
+}
+
+#print-btn svg {
+    margin: 0 8px 0 0;
+    color: #03514d;
+}
+
+#setting-btn {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    background-color: transparent;
+    border: solid transparent;
+}
+
+.bg-delete {
+    border: 1px solid transparent;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 5px rgb(188, 188, 188);
+    position: absolute;
+    right: 8rem;
+    top: 14rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.rotate {
+    transform: rotate(-20deg);
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+#filter-btn {
+    margin: 0 0 0 10px;
+    background-color: blue;
+    color: white;
+    border: solid transparent;
+    padding: 3px 1rem 3px 1rem;
+    border-radius: 5px;
+}
+
+#search-field {
+    width: 100%;
+    padding: 4px 7px 4px 7px;
+    border: 2.5px solid #009e64;
+    border-radius: 5px;
+}
+
+#search-field:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px rgb(6, 240, 205);
+}
+
+#nomor-hp,
+#verification,
+#noHp,
+#pass,
+#password-confirmation {
+=======
+    height: auto;
+    width: auto;
+    background-color: blue;
+    border-color: transparent;
+    border-radius: 100%;
+    scale: 1.5;
+}
+
+.date-from input {
+    width: 100%;
+    padding: 0.1rem;
+}
+
+.date-from p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.date-to input {
+    width: 100%;
+    padding: 0.1rem;
+}
+
+.date-to p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#pdf-btn {
+    width: 200%;
+    border-style: solid;
+    background-color: #00d2c6;
+    border-color: transparent;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#search-btn {
+    width: 100%;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: #00d2c6;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 3px #00d2c6;
+}
+
+#search-btn:focus {
+    width: 100%;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: #00d2c6;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 3px #00d2c6;
+    outline: none;
+}
+
+#print-icon {
+    margin-right: 1rem;
+}
+
+thead {
+    background-color: grey;
+    color: white;
+    letter-spacing: 0.1px;
+}
+
+tbody {
+    background-color: white;
+}
+
+.form-add-transaksi input {
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    width: 100%;
+    border-style: solid;
+    border-color: #00d2c6;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+<<<<<<< HEAD
+#nomor-hp:focus,
+#verification:focus,
+#noHp:focus,
+#pass:focus,
+#password-confirmation:focus {
+=======
+.form-add-transaksi input:focus {
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    width: 100%;
+    border-style: solid;
+    border-color: #00d2c6;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px #00d2c6;
+}
+
+<<<<<<< HEAD
+@media print {
+    .lg-version {
+        display: block;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .bg-navbar,
+    h1,
+    #user-icon,
+    #home-btn,
+    #print-btn,
+    #setting-btn,
+    .bg-delete,
+    #date,
+    span,
+    #filter-btn,
+    #search-field,
+    .mobile-version,
+    #add-btn,
+    #copyright,
+    .list svg,
+    .list,
+    .profil-option {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 997px) {
+    body {
+        padding-bottom: 15rem;
+        background-image: url(../../img/vectors.png);
+        background-repeat: no-repeat;
+        background-size: 100% 7rem;
+        background-position: bottom;
+    }
+
+    #add-btn {
+        padding: 10px;
+        border: 0 solid transparent;
+        border-radius: 100%;
+        background-color: blue;
+        color: white;
+        position: fixed;
+        right: 3rem;
+        bottom: 3rem;
+        box-shadow: 0 0 15px 1px black;
+    }
+
+    #add-btn span {
+        display: none;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    #add-btn:hover {
+        width: auto;
+        height: auto;
+        border-radius: 0.5rem;
+        transition: 0.2s;
+    }
+
+    #add-btn:hover span {
+=======
+#back-btn {
+    width: 100%;
+    padding: 0.5rem;
+    border-color: transparent;
+    border-style: solid;
+    background-color: #3bff37;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 997px) {
+    .add-btn button {
+        border-color: transparent;
+        border-style: solid;
+        background-color: blue;
+        border-radius: 100%;
+        padding: 0.5rem;
+        width: 90px;
+        height: 90px;
+        color: white;
+        position: fixed;
+        overflow: hidden;
+        bottom: 3rem;
+        right: 3rem;
+        box-shadow: 0 0 10px rgb(99, 241, 248);
+        transition: 0.2s;
+    }
+
+    .add-btn span {
+        display: none;
+        font-weight: 500;
+        font-size: 1.3rem;
+        letter-spacing: 1.5px;
+        transition: 0.2s;
+    }
+
+    .add-btn button:hover {
+        width: auto;
+        height: auto;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .add-btn:hover span {
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+        display: inline-block;
+    }
+
+    .mobile-version {
+        display: none;
+    }
+<<<<<<< HEAD
+
+    #copyright {
+        position: relative;
+        bottom: -15rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        padding-bottom: 15rem;
+        background-image: url(../../img/vectors.png);
+        background-repeat: no-repeat;
+        background-size: 100% 7rem;
+        background-position: 100% 100%;
+    }
+
+=======
+}
+
+@media screen and (max-width: 576px) {
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    .bg-navbar a img {
+        width: 15%;
+    }
+
+    .bg-navbar h1 {
+        display: none;
+    }
+
+<<<<<<< HEAD
+=======
+    body {
+        height: 1000px;
+    }
+
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    .lg-version {
+        display: none;
+    }
+
+<<<<<<< HEAD
+    .profil-option {
+        z-index: 1;
+        margin-top: -1.5rem;
+    }
+
+    #search-field {
+        margin: 0 0 1rem 0;
+        width: fit-content;
+        position: absolute;
+        right: 3%;
+    }
+
+    .mobile-version {
+        margin-top: 3rem;
+        padding-bottom: 81%;
+    }
+
+    #add-btn {
+        padding: 10px;
+        border: 0 solid transparent;
+        border-radius: 100%;
+        background-color: blue;
+        color: white;
+        position: fixed;
+        right: 2rem;
+        bottom: 3rem;
+        box-shadow: 0 0 15px 1px black;
+    }
+
+    #add-btn svg {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    #add-btn span {
+        display: none;
+    }
+
+    #filter-btn {
+        margin: 1rem 0 2.5rem -1px;
+    }
+
+    #act-icon svg {
+        background-color: #00d2c6;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        padding: 3px;
+        color: white;
+    }
+
+    #setting-btn {
+        position: absolute;
+        right: 3%;
+        top: 10%;
+    }
+
+    .bg-delete {
+        position: absolute;
+        right: 5%;
+        top: 20%;
+    }
+
+    #copyright {
+        position: relative;
+        bottom: -15rem;
+=======
+    .mobile-version {
+        position: relative;
+        margin-top: 4rem;
+    }
+
+    #pdf-btn {
+        width: 35%;
+        position: absolute;
+        right: 1.5rem;
+    }
+
+    #search-btn {
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    .date-picker-from,
+    .date-picker-to {
+        position: relative;
+        left: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    .date-to p,
+    .date-from p {
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+
+    .add-btn svg {
+        display: none;
+    }
+
+    .add-btn button {
+        border: 15px solid transparent;
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        box-shadow: 0 0 5px rgb(54, 54, 54);
+        letter-spacing: 1.5px;
+        position: fixed;
+        right: 20px;
+        bottom: 55px;
+    }
+
+    #back-btn {
+        display: none;
+    }
+
+    #full-btn {
+        text-decoration: none;
+        color: white;
+    }
+
+    #full-btn svg {
+        border: 0 solid transparent;
+        background-color: #00d2c6;
+        padding: 4px;
+        border-radius: 3px;
+>>>>>>> d26556bb9c0e02a6aa372ac2b44b92d28baf54db
+    }
+}

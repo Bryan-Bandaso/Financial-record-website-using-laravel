@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg-landingpage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.logo,
+.logo img {
+    margin: 10px 0 0 10px;
+    width: 130px;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.tittle h1 {
+    font-family: "Share", cursive;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 30px 0 0 0;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+#big-logo {
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.tittle button {
+    width: 70%;
+    height: 50px;
+    margin: 50px 0 0 0;
+    border: 0 solid transparent;
+    background-color: #3bff37;
+    box-shadow: 0px 5px 10px rgb(215, 215, 215);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    transition: 0.3s;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.tittle button:hover {
+    scale: 1.1;
+    box-shadow: 5px 5px 10px rgb(0, 255, 183);
+    background-color: #027353;
+    border: 2px solid #46f095;
+}
+
+#screen-app {
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "Yaldevi", sans-serif;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../img/bg-landingpage.png);
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .logo,
+    .logo img {
+        margin: 10px 0 0 10px;
+        width: 100px;
+    }
+
+    #screen-app {
+        margin-top: 50px;
+    }
+
+    p {
+        color: white;
+        padding-left: 100px;
+        font-size: 15px;
+        text-align: right;
+        width: 100%;
+        margin-top: 10px;
+        font-family: "Yaldevi", sans-serif;
+    }
+}

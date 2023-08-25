@@ -1,0 +1,60 @@
+.tittle img {
+    height: 50px;
+    background-color: #03514d;
+    border-radius: 5px;
+}
+
+.tittle p {
+    font-family: "Comfortaa", cursive;
+    font-weight: 570;
+    font-size: 40px;
+}
+
+input {
+    height: auto;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00d2c6;
+    border-width: 2.5px;
+}
+
+input:focus {
+    outline: transparent;
+    box-shadow: 0.5px 0.5px 5px #00d2c6;
+}
+
+#login-noHp,
+#login-pass {
+    margin-bottom: 20px;
+}
+
+a button {
+    width: 100%;
+    height: auto;
+    color: white;
+    border-color: transparent;
+    border-style: solid;
+    padding: 7px 0 7px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #00d2c6;
+}
+
+#sign-up {
+    color: #00d2c6;
+}
+
+footer img {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    footer img {
+        display: none;
+    }
+}

@@ -1,0 +1,103 @@
+.text2 {
+    margin: 13rem 0 0 0;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.text3 {
+    margin: 7rem 0 0 0;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.card-view {
+    width: auto;
+    height: auto;
+    margin: 50px 0 0 0;
+    padding: 2rem 3rem 2rem 3rem;
+    border: 0.5px solid #078A6380;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(7, 138, 99, 0.5);
+    transition: .5s;
+    animation: fadeInDown;
+    animation-duration: 3.5s;
+}
+
+.card-view a {
+    text-decoration: none;
+    margin-left: 4px;
+    color: rgb(216, 149, 23);
+    transition: .3s;
+}
+
+.info span {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.info p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 997px) {
+    body {
+        background-image: url(../img/vector-1.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 0 0 10rem 0;
+    }
+    
+    #logo {
+        width: 324px;
+        height: 100px;
+        margin-top: 41px;
+        animation: fadeInDown;
+        animation-duration: 1s;
+    }
+    
+    #pkl-logo {
+        margin-top: 41px;
+        width: 195px;
+        height: 195px;
+        animation: fadeInDown;
+        animation-duration: 2s;
+    }
+    
+    .text {
+        margin-left: .5rem;
+        font-size: 20px;
+        animation: fadeInDown;
+        animation-duration: 2s;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        background-image: url(../img/vector-2.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 35rem;
+        padding: 0 0 10rem 0;
+        background-color: black;
+    }
+    
+    #logo {
+        width: 100%;
+        margin-top: 41px;
+    }
+    
+    #pkl-logo {
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .text {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 18px;
+    }
+}
